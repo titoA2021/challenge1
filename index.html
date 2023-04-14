@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Encriptador de texto!!</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="codigo.js" defer></script>
+</head>
+
+
+<body>
+<main>
+    <section>
+        <article class="user-interactivity">
+            <header class="encrypt__header">
+              <img src="imagenes\Vector.png">
+              <h1>Encriptador de texto</h1>
+            </header>
+            <form id="encryptForm" class="encrypt-form">
+              <input id="textInput" cols="30" rows="10" placeholder="Ingrese su texto aquí..." autocomplete="off" cols="30" rows="10"/>
+              <span> Solo letras minúsculas sin acentos</span>
+            </form>
+            <div class="encrypt-buttons">
+              <button id="encriptar" class="encrypt-buttons_encriptado">Encriptar codigo</button>
+              <button id="desencriptar" class="encrypt-buttons_desencriptado">Desencriptar codigo</button>
+            </div>
+          </article>
+    
+          <aside class="respuesta">
+            <article id="placeholderInfo">
+                <img src="imagenes/Muñeco.png">
+                <p id="warning" class="placeholder__text">Ingresa el texto que desees encriptar o desencriptar</p>
+            </article>
+            <article id="textoDes" class="ocultarTexto">
+                <form id="decryptedForm" class="encrypt-form">
+                    <textarea id="textArea" cols="30" rows="10" placeholder="Texto Encriptado/Desencriptado"></textarea>
+                </form>
+                <button id="copiado" class="encrypt-buttons_desencriptado">Copiar texto</button>
+            </article>
+          </aside>
+    </section>
+    
+    <footer>
+        <p>Hecho por <strong>Tito A. Zapata Gonzalez</strong></p>
+    </footer>
+</main>
+</body>
+</html>
